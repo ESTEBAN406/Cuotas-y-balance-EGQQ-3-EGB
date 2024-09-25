@@ -1,0 +1,100 @@
+/* Estilos generales */
+body {
+    font-family: Arial, Narrow;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+body {
+    font-family: Arial, Narrow;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: rgb(255, 255, 255);
+    }
+    h1 {
+        font-size: 1px;
+    }
+}
+
+/* Estilos para pantallas medianas (tablets) */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    body {
+        background-color: rgb(255, 255, 255);
+    }
+    h1 {
+        font-size: 1px;
+    }
+}
+
+/* Imagen izquierda */
+.header .left-image {
+    width: 4cm;
+    height: 2cm;
+}
+
+/* Imagen derecha */
+.header .right-image {
+    width: 2.5cm;
+    height: 2.5cm;
+}
+
+/* Texto centrado */
+.center-text {
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.5;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Estilos para tablas */
+.table {
+    font-size: 13px;
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: center;
+    padding: 10px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.nombre {
+    text-align: left;
+    width: 8%;
+}
+
+.numero {
+    width: 1%;
+}
+
+.cuotas {
+    width: 10%;
+}
+
+/* Estilo personalizado para el botón */
+.custom-margin {
+    margin-top: 20px;  /* Margen superior personalizado */
+    margin-bottom: 30px;  /* Margen inferior personalizado */
+}
+
+@media print {
+    .no-print {
+        display: none;
+    }
+}
+
+
